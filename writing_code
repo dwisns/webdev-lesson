@@ -1,0 +1,17 @@
+// 1. using // or /* */ for comment-line
+// this is comment-line
+/* this is multiple
+comment-line */
+
+// 2. learning var to assign a variable and end the code with semi-colon(;) i.e var $myName;
+var myName;
+myName = Budi
+
+// 3. (CLEAN CODE) instead of var a; and then a = 9; we can do it as var a = 9;
+var a = 9;
+
+// 4. assigning string on the variable
+var myFirstName = "Dwi";
+var myLastName = "Nurseto";
+
+// 5. 

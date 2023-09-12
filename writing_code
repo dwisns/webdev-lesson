@@ -11,7 +11,87 @@ myName = Budi
 var a = 9;
 
 // 4. assigning string on the variable
-var myFirstName = "Dwi";
-var myLastName = "Nurseto";
+var myFirstName = "Budi";
+var myLastName = "Hartono";
 
-// 5. 
+// 5. Initialize the three variables a, b, and c with 5, 10, and "I am a" respectively so that they will not be undefined.
+var a = 5;
+var b = 10;
+var c = 'I am a';
+
+a = a + 1;
+b = b + 5;
+c = c + " String!";
+
+console.log(c);
+
+// 6. Understanding Case Sensitivity in Variables
+// Variable declarations
+var StUdLyCapVaR;
+var properCamelCase;
+var TitleCaseOver;
+
+// Variable assignments
+STUDLYCAPVAR = 10;
+PRoperCAmelCAse = "A String";
+tITLEcASEoVER = 9000;
+// if you call it with console.log(TitleCaseOver) it still remain empty or (as 'undefined')
+// instead do this
+
+// Variable declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+// Variable assignments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
+
+// 7. Explore Differences Between the var and let Keywords, var can be overide by the same var but let can only be one
+var catName = "Oliver";
+var catName = "omawo!";
+console.log(catName)
+// >>> 'omawo'
+let catName2 = "Oliver";
+let catName2 = "omawo!";
+console.log(catName2)
+// >>> SyntaxError: Identifier 'catName2' has already been declared
+
+// the correct way
+let catName = "Oliver";
+let catSound = "Meow!";
+
+// 8. Declare a Read-Only Variable with the const Keyword
+/* Change the code so that all variables are declared using let or const.
+Use let when you want the variable to change, and const when you want the variable to remain constant.
+Also, rename variables declared with const to conform to common practices.
+Do not change the strings assigned to the variables. */
+const FCC = "freeCodeCamp"; // Change this line
+let fact = "is cool!"; // Change this line
+fact = "is awesome!";
+console.log(FCC, fact); // Change this line
+/* It is common for developers to use uppercase variable identifiers for immutable values 
+and lowercase or camelCase for mutable values (objects and arrays). */
+
+// 9. Add Two Numbers with JavaScript by using + sign between two numbers
+const sum = 10 + 10;
+// 10. substract Two Numbers with JavaScript by using - sign between two numbers
+const difference = 45 - 33;
+// 11. multiply Two Numbers with JavaScript by using * sign between two numbers
+const product = 8 * 10;
+// 12. devide Two Numbers with JavaScript by using / sign between two numbers
+const quotient = 66 / 33;
+
+// 13. Plus, minus, times, devide (+-*/) variable in one line
+let a = 11;
+let b = 9;
+let c = 3;
+
+// Only change code below this line
+a-=6;
+b-=15;
+c-=1;
+
+// Escaping Literal Quotes in Strings
+
